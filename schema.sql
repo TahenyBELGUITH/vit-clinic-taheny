@@ -6,5 +6,6 @@ name varchar(100) NOT NULL,
 date_of_birth date NOT NULL,
 escape_attempts INT NOT NULL,
 neutered boolean NOT NULL,
-weight_kg decimal NOT NULL
+weight_kg decimal NOT NULL,
+species varchar(100)  NULL
 );
